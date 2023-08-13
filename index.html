@@ -4,15 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">\
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
     <!-- Box-icons CSS -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Document</title>
 </head>
-
 <body>
     <nav class="sidebar close">
         <header>
@@ -34,42 +32,190 @@
                     <input type="text" placeholder="Search...">
                 </li>
                 <ul class="menu-links">
-                    <li class="nav-link">
+                    <!-- dashboard li section  -->
+                    <li class="nav-link" id="dashboard">
                         <a href="#">
                             <i class='bx bx-home-alt icon'></i>
                             <span class="text nav-text">Dashboard</span>
                         </a>
                     </li>
-                    <li class="nav-link">
+                    <ul id="dashboardDropDown">
+                        <li class="nav-link">
+                            <a href="#">
+                                <i class='bx bx-home-alt icon'></i>
+                                <span class="text nav-text">Dashboard</span>
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#">
+                                <i class='bx bx-home-alt icon'></i>
+                                <span class="text nav-text">Dashboard</span>
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#">
+                                <i class='bx bx-home-alt icon'></i>
+                                <span class="text nav-text">Dashboard</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- Revenue li section  -->
+                    <li class="nav-link" id="Revenue">
                         <a href="#">
                             <i class='bx bx-bar-chart-alt-2 icon'></i>
                             <span class="text nav-text">Revenue</span>
                         </a>
                     </li>
-                    <li class="nav-link">
+                    <ul id="RevenueDropdown">
+                        <li class="nav-link">
+                            <a href="#">
+                                <i class='bx bx-bar-chart-alt-2 icon'></i>
+                                <span class="text nav-text">Revenue</span>
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#">
+                                <i class='bx bx-bar-chart-alt-2 icon'></i>
+                                <span class="text nav-text">Revenue</span>
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#">
+                                <i class='bx bx-bar-chart-alt-2 icon'></i>
+                                <span class="text nav-text">Revenue</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- Notifications li section  -->
+                    <li class="nav-link" id="Notifications">
                         <a href="#">
                             <i class='bx bx-bell icon'></i>
                             <span class="text nav-text">Notifications</span>
                         </a>
                     </li>
-                    <li class="nav-link">
+                    <ul id="NotificationsDropDown">
+                        <li class="nav-link">
+                            <a href="#">
+                                <i class='bx bx-bell icon'></i>
+                                <span class="text nav-text">Notifications</span>
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#">
+                                <i class='bx bx-bell icon'></i>
+                                <span class="text nav-text">Notifications</span>
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#">
+                                <i class='bx bx-bell icon'></i>
+                                <span class="text nav-text">Notifications</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- Analytics li section  -->
+                    <li class="nav-link" id="Analytics">
                         <a href="#">
                             <i class='bx bx-pie-chart-alt icon'></i>
                             <span class="text nav-text">Analytics</span>
                         </a>
                     </li>
-                    <li class="nav-link">
+                    <ul id="AnalyticsDropDown">
+                        <li class="nav-link">
+                            <a href="#">
+                                <i class='bx bx-pie-chart-alt icon'></i>
+                                <span class="text nav-text">Analytics</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-link">
+                            <a href="#">
+                                <i class='bx bx-pie-chart-alt icon'></i>
+                                <span class="text nav-text">Analytics</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-link">
+                            <a href="#">
+                                <i class='bx bx-pie-chart-alt icon'></i>
+                                <span class="text nav-text">Analytics</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-link">
+                            <a href="#">
+                                <i class='bx bx-pie-chart-alt icon'></i>
+                                <span class="text nav-text">Analytics</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                    <!-- Likes li section  -->
+                    <li class="nav-link" id="Likes">
                         <a href="#">
                             <i class='bx bx-heart icon'></i>
                             <span class="text nav-text">Likes</span>
                         </a>
                     </li>
-                    <li class="nav-link">
+                    <ul id="LikesDropDown">
+                        <li class="nav-link">
+                            <a href="#">
+                                <i class='bx bx-heart icon'></i>
+                                <span class="text nav-text">Likes</span>
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#">
+                                <i class='bx bx-heart icon'></i>
+                                <span class="text nav-text">Likes</span>
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#">
+                                <i class='bx bx-heart icon'></i>
+                                <span class="text nav-text">Likes</span>
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#">
+                                <i class='bx bx-heart icon'></i>
+                                <span class="text nav-text">Likes</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- Wallets li section  -->
+                    <li class="nav-link" id="Wallets">
                         <a href="#">
                             <i class='bx bx-wallet icon'></i>
                             <span class="text nav-text">Wallets</span>
                         </a>
                     </li>
+                    <ul id="WalletsDropDown">
+                        <li class="nav-link">
+                            <a href="#">
+                                <i class='bx bx-wallet icon'></i>
+                                <span class="text nav-text">Wallets</span>
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#">
+                                <i class='bx bx-wallet icon'></i>
+                                <span class="text nav-text">Wallets</span>
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#">
+                                <i class='bx bx-wallet icon'></i>
+                                <span class="text nav-text">Wallets</span>
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#">
+                                <i class='bx bx-wallet icon'></i>
+                                <span class="text nav-text">Wallets</span>
+                            </a>
+                        </li>
+                    </ul>
                 </ul>
             </div>
             <div class="bottom-content">
@@ -80,24 +226,25 @@
                     </a>
                 </li>
                 <li class="mode">
-                  <div class="moon-sun">
-                    <i class='bx bx-sun icon sun'></i>
-                    <i class='bx bx-moon icon moon '></i>
-                </div>
-                        <span class="text mode-text ">DarkMode</span>
-                        <div class="toggle-switch">
-                            <span class="switch"></span>
-                        </div>
-                  
+                    <div class="moon-sun">
+                        <i class='bx bx-sun icon sun'></i>
+                        <i class='bx bx-moon icon moon '></i>
+                    </div>
+                    <span class="text mode-text ">DarkMode</span>
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+
                 </li>
             </div>
         </div>
     </nav>
     <section class="home">
         <div class="text">
-             Dashboard
+            Dashboard
         </div>
     </section>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="app.js"></script>
 </body>
 
