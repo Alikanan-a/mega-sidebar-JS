@@ -327,37 +327,63 @@ body.dark .switch::before {
     right: 18px;
     width: calc(100% - 88px);
 }
+.active {
+    background-color: var(--primary-color);
+    border-radius: 6px;
+    color: white;
+}
 
 #dashboardDropDown {
     display: none;
     transform: scale(.9);
 }
-
+#dashboardDropDown li {
+    background-color: var(--primary-color-light);
+    border-radius: 6px;
+}
 #RevenueDropdown {
     display: none;
     transform: scale(.9);
 }
-
+#RevenueDropdown li {
+    background-color: var(--primary-color-light);
+    border-radius: 6px;
+}
 #NotificationsDropDown {
     display: none;
     transform: scale(.9);
 }
-
+#NotificationsDropDown li {
+    background-color: var(--primary-color-light);
+    border-radius: 6px;
+}
 #AnalyticsDropDown {
     display: none;
 }
-
+#AnalyticsDropDown li {
+    background-color: var(--primary-color-light);
+    border-radius: 6px;
+}
 #LikesDropDown {
     display: none;
     transform: scale(.9);
 }
-
+#LikesDropDown li {
+    background-color: var(--primary-color-light);
+    border-radius: 6px;
+}
 #DropDown {
     display: none;
     transform: scale(.9);
 }
-
+#DropDown li {
+    background-color: var(--primary-color-light);
+}
 #WalletsDropDown {
     display: none;
     transform: scale(.9);
+}
+#WalletsDropDown li {
+    background-color: var(--primary-color-light);
+    border-radius: 6px;
 }

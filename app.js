@@ -10,8 +10,15 @@
             $('#LikesDropDown').hide()
             $('#WalletsDropDown').hide()
             $('#RevenueDropdown').hide()
+            $('#dashboard').addClass('active');
+            $('#Revenue').removeClass('active');
+            $('#Notifications').removeClass('active');
+            $('#Analytics').removeClass('active');
+            $('#Likes').removeClass('active');
+            $('#Wallets').removeClass('active');
           } else {
             $('#dashboardDropDown').hide()
+            $('#dashboard').removeClass('active');
           }
           dropdouwnIsOpen = !dropdouwnIsOpen
         })
@@ -23,8 +30,15 @@
             $('#AnalyticsDropDown').hide()
             $('#LikesDropDown').hide()
             $('#WalletsDropDown').hide()
+            $('#Revenue').addClass('active');
+            $('#dashboard').removeClass('active');
+            $('#Notifications').removeClass('active');
+            $('#Analytics').removeClass('active');
+            $('#Likes').removeClass('active');
+            $('#Wallets').removeClass('active');
           } else {
             $('#RevenueDropdown').hide()
+            $('#Revenue').removeClass('active');
           }
           dropdouwnIsOpen = !dropdouwnIsOpen
         })
@@ -36,8 +50,15 @@
             $('#AnalyticsDropDown').hide()
             $('#LikesDropDown').hide()
             $('#WalletsDropDown').hide()
+            $('#Notifications').addClass('active');
+            $('#dashboard').removeClass('active');
+            $('#Revenue').removeClass('active');
+            $('#Analytics').removeClass('active');
+            $('#Likes').removeClass('active');
+            $('#Wallets').removeClass('active');
           } else {
             $('#NotificationsDropDown').hide()
+            $('#Notifications').removeClass('active');
           }
           dropdouwnIsOpen = !dropdouwnIsOpen
         })
@@ -49,8 +70,15 @@
             $('#NotificationsDropDown').hide()
             $('#LikesDropDown').hide()
             $('#WalletsDropDown').hide()
+            $('#Analytics').addClass('active');
+            $('#dashboard').removeClass('active');
+            $('#Revenue').removeClass('active');
+            $('#Notifications').removeClass('active');
+            $('#Likes').removeClass('active');
+            $('#Wallets').removeClass('active');
           } else {
             $('#AnalyticsDropDown').hide()
+            $('#Analytics').removeClass('active');
           }
           dropdouwnIsOpen = !dropdouwnIsOpen
         })
@@ -62,8 +90,15 @@
             $('#NotificationsDropDown').hide()
             $('#AnalyticsDropDown').hide()
             $('#WalletsDropDown').hide()
+            $('#Likes').addClass('active');
+            $('#dashboard').removeClass('active');
+            $('#Revenue').removeClass('active');
+            $('#Notifications').removeClass('active');
+            $('#Analytics').removeClass('active');
+            $('#Wallets').removeClass('active');
           } else {
             $('#LikesDropDown').hide()
+            $('#Likes').removeClass('active');
           }
           dropdouwnIsOpen = !dropdouwnIsOpen
         })
@@ -75,8 +110,15 @@
             $('#NotificationsDropDown').hide()
             $('#AnalyticsDropDown').hide()
             $('#LikesDropDown').hide()
+            $('#Wallets').addClass('active');
+            $('#dashboard').removeClass('active');
+            $('#Revenue').removeClass('active');
+            $('#Notifications').removeClass('active');
+            $('#Analytics').removeClass('active');
+            $('#Likes').removeClass('active');
           } else {
             $('#WalletsDropDown').hide()
+            $('#Wallets').removeClass('active');
           }
           dropdouwnIsOpen = !dropdouwnIsOpen
         })
